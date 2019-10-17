@@ -1,7 +1,7 @@
 {
   "name": "wx-get-pages-json",
   "version": "1.0.0",
-  "description": "获取微信小程序中所有页面对应json文件中的内容并以数组的形式组合成一个新文件",
+  "description": "获取微信小程序中所有页面对应json文件中的内容并以数组的形式组合成一个新文件。可用以获取每个页面的路径和标题等。",
   "bin": {
     "wx-get-pages-json": "./bin/index.js"
   },
