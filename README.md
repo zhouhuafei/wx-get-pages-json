@@ -11,13 +11,18 @@ npm i --save-dev wx-get-pages-json
     ```
     {
       "scripts": {
-        "wx-get-pages-json": "npx wx-get-pages-json --entry=./dist/app.json --output=./dist/page.js"
+        "wx-get-pages-js": "npx wx-get-pages-json --entry=./dist/app.json --output=./dist/page.js",
+        "wx-get-pages-json": "npx wx-get-pages-json --entry=./dist/app.json --output=./dist/page.json"
       }
     }
     ```
     * entry：app.json的路径
     * output：输出的文件路径
-* 运行
+* 运行 - 生成js文件
+```
+npm run wx-get-pages-js
+```
+* 运行 - 生成json文件
 ```
 npm run wx-get-pages-json
 ```
