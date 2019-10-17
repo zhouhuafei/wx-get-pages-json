@@ -30,7 +30,7 @@ module.exports = function (entry, output) {
   }
   fs.writeFileSync(output, resultStr, { encoding: 'utf-8' })
 
-  console.log(chalk.blue(`文件生成完毕，文件路径为：${path.resolve('./', output)}`))
+  console.log(chalk.blue(`文件生成完毕，文件路径为：${path.resolve(output)}`))
 
   return result
 }
