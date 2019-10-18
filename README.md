@@ -11,8 +11,8 @@ npm i --save-dev wx-get-pages-json
     ```
     {
       "scripts": {
-        "wx-get-pages-js": "npx wx-get-pages-json --entry=./dist/app.json --output=./dist/page.js",
-        "wx-get-pages-json": "npx wx-get-pages-json --entry=./dist/app.json --output=./dist/page.json"
+        "wx-get-pages-js": "npx wx-get-pages-json --entry=./dist/app.json --output=./dist/pages.js",
+        "wx-get-pages-json": "npx wx-get-pages-json --entry=./dist/app.json --output=./dist/pages.json"
       }
     }
     ```
