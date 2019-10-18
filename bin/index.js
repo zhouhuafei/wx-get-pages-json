@@ -16,4 +16,4 @@ if (!output) {
   return
 }
 
-fn(entry, output)
+fn(entry, output, true)

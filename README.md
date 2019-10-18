@@ -35,6 +35,6 @@ npm i --save-dev wx-get-pages-json
 * 使用
 ```
 const wxGetPagesJson = require('wx-get-pages-json')
-const arr = wxGetPagesJson('./dist/app.json', './dist/page.js')
+const arr = wxGetPagesJson('./dist/app.json')
 console.log(arr) // 所有页面的json集合
 ```
